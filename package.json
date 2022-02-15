@@ -1,9 +1,13 @@
 {
-  "name": "@urban/wordle-cheat",
+  "name": "@castodius/wordle",
   "version": "0.0.1",
   "description": "Package for getting the answer to Wordle for a given day",
   "main": "src/index.js",
   "bin": "src/bin.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
