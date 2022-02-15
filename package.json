@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "description": "Package for getting the answer to Wordle for a given day",
   "main": "src/index.js",
-  "bin": "src/bin.js",
+  "bin": {
+    "wordle-cheat": "src/bin.js"
+  },
   "private": false,
   "publishConfig": {
     "access": "public"
