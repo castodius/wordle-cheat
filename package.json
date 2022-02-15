@@ -2,7 +2,8 @@
   "name": "@urban/wordle-cheat",
   "version": "1.0.0",
   "description": "Package for getting the answer to Wordle for a given day",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": "src/bin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
