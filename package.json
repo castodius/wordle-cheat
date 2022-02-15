@@ -1,0 +1,26 @@
+{
+  "name": "@urban/wordle-cheat",
+  "version": "1.0.0",
+  "description": "Package for getting the answer to Wordle for a given day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castodius/wordle-cheat.git"
+  },
+  "keywords": [
+    "wordle",
+    "cheat"
+  ],
+  "author": "Urban Pettersson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/castodius/wordle-cheat/issues"
+  },
+  "homepage": "https://github.com/castodius/wordle-cheat#readme",
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
