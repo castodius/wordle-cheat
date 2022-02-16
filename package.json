@@ -1,6 +1,6 @@
 {
   "name": "@castodius/wordle",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Package for getting the answer to Wordle for a given day",
   "main": "src/index.js",
   "types": "src/index.d.ts",
