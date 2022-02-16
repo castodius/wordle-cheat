@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "Package for getting the answer to Wordle for a given day",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "bin": {
     "wordle-cheat": "src/bin.js"
   },
