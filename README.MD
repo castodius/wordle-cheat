@@ -18,7 +18,9 @@ npx @castodius/wordle
 
 ## Usage
 
-The package takes one optional argument, the day to get the word for in date format *yyyy-MM-dd*. If no word is supplied it defaults to today.
+### CLI
+
+The CLI takes one optional argument, the day to get the word for in date format *yyyy-MM-dd*. If no word is supplied it defaults to today.
 
 Example using globally installed package
 
@@ -30,6 +32,17 @@ Example using globally installed package and picking the date
 
 ```
 wordle-cheat 2020-02-14
+```
+
+### Function
+
+You can use *getAnswer* to the answer for a Wordle. Example
+
+```typescript
+import { getAnswer } from '@castodius/wordle'
+
+console.log(getAnswer()) // returns the answer for today
+console.log(getAnswer('2022-02-14')) // returns the answer for 14th of February 2022
 ```
 
 ## Why?
