@@ -11,4 +11,5 @@
  * @throws
  * If date is after the latest possible date
  */
-export const getAnswer = (dateString?: string) => string
+ export declare const getAnswer: (dateString?: string) => string;
+
